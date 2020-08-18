@@ -22,7 +22,7 @@
     <!-- 项目属性 -->
     <properties>
         <jdk.version>1.7</jdk.version>
-        <spring.version>4.1.5.RELEASE</spring.version>
+        <spring.version>4.3.28.RELEASE</spring.version>
         <hibernate.version>4.2.5.Final</hibernate.version>
         <spring-data-jpa.version>1.9.1.RELEASE</spring-data-jpa.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
@@ -542,7 +542,7 @@
                 <jdbc.driver>org.h2.Driver</jdbc.driver>
                 <jdbc.url>jdbc:h2:file:~/kft-activiti-demo;AUTO_SERVER=TRUE</jdbc.url>
                 <jdbc.username>sa</jdbc.username>
-                <jdbc.password></jdbc.password>
+                <jdbc.password/>
                 <hibernate.dialect>org.hibernate.dialect.H2Dialect</hibernate.dialect>
             </properties>
             <activation>
